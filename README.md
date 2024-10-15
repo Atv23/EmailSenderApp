@@ -16,7 +16,7 @@ The front end of this application is developed using **Angular**, providing a re
    ![Landing Page](UI%20pics/landing_page.png)
 
 2. **Send Email Page**  
-   ![Send Email Page](UI%20pics/send_email_page.png)
+   ![Send Email Page](UI%20pics/send_email.png)
 
 3. **Processing Sending**  
    ![Processing Sending](UI%20pics/sending_process.png)
