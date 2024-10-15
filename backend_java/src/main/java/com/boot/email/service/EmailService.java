@@ -10,7 +10,6 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import io.github.cdimascio.dotenv.Dotenv;
 
 @Service
 public class EmailService {
