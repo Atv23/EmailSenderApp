@@ -1,0 +1,28 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files
+*.env
+
+# Ignore application properties file for security (you can modify as per your folder structure)
+src/main/resources/application.properties
+src/main/resources/application.yml
