@@ -1,0 +1,18 @@
+.inp-field{
+    width: 80%;
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+.card{
+    width: 60%;
+    margin: auto;
+}
+.btn-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card button{
+    margin: 5px;
+}

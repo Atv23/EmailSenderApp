@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="card">
+        <form (ngSubmit)="submitForm()">
+            <h1>Compose Email</h1>
+            <mat-form-field class="inp-field">
+                <mat-label>Enter recepient's email</mat-label>
+                <input name="to" [(ngModel)]="data.to" matInput placeholder="xyz@gmail.com" [formControl]="email" (blur)="updateErrorMessage()"
+                    required />
+                @if (email.invalid) {
+                <mat-error>{{errorMessage()}}</mat-error>
+                }
+            </mat-form-field>
+            <mat-form-field class="inp-field">
+                <mat-label>Subject</mat-label>
+                <input name="subject" [(ngModel)]="data.subject" matInput>
+            </mat-form-field>
+            <mat-form-field class="inp-field">
+                <mat-label>Enter your message</mat-label>
+                <textarea name="message" [(ngModel)]="data.message" rows="5" matInput placeholder="Ex: Hey, what's the plan today?"></textarea>
+            </mat-form-field>
+           
+            <div class="btn-container">
+                <button [disabled]="flag" type="submit" mat-flat-button>Send</button>
+                <button type="reset" mat-raised-button>Reset</button>
+            </div>
+            <mat-progress-bar *ngIf="flag" mode="indeterminate"></mat-progress-bar>
+        </form>
+        <!-- {{ data | json}} -->
+    </div>
+</div>

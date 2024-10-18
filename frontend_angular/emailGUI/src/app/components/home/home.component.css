@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+.send-btn{
+    margin-top: 50px;
+}
+
+.features {
+    text-align: center;
+    margin: 80px 0 10px 0;
+}
+.features-heading {
+    text-align: center; 
+    margin: 20px auto; 
+    width: 100% !important; 
+}
+.features-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: nowrap; 
+}
+.feature {
+    padding: 10px;
+    text-align: center;
+}
+.feature-icon {
+    color: cyan;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.feature-icon-title {
+    display: flex; /* Align icon and title in a row */
+    align-items: center; /* Vertically center the icon and title */
+    justify-content: center; /* Horizontally center icon and title */
+}

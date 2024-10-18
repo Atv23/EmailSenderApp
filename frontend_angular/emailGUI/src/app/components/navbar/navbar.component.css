@@ -1,0 +1,9 @@
+.custom-toolbar {
+    background-color: cyan; /* Green background */
+    color: white;              /* White text color */
+    position: fixed;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  

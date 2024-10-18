@@ -1,0 +1,38 @@
+.footer {
+  background-color: rgb(127, 129, 129); /* Set the background color to cyan */
+  color: #000000; /* Text color for contrast */
+  padding: 15px 0;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100% !important;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 0 20px;
+  padding: 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-links a {
+  color: #000000; /* Dark color for contrast against cyan */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: cyan;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 0.9rem;
+}

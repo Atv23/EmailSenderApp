@@ -1,0 +1,17 @@
+/* Global Styles or Wrapper Component CSS */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the wrapper span the full viewport height */
+  }
+  
+  .content {
+    flex: 1; /* This will ensure the content pushes the footer down */
+  }
+  
+  /* Footer Styling */
+  app-footer {
+    text-align: center;
+    width: 100%;
+  }
+  
